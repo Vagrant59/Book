@@ -1,0 +1,84 @@
+﻿.yjy-in {
+    width: 816px;
+    margin: 0 auto;
+}
+#form1 {
+    min-height: 500px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+.avatar img {
+    border-radius: 5px;
+}
+.wechat {
+    position: relative;
+}
+.wechat { 
+    height: 200px;
+    width: 0;
+    position: absolute;
+    top: 180px;
+    left: -25px;
+    background: url(../images/WeChat.png);
+    background-size: 200px 200px;
+    transition: all 0.2s;
+}
+.avatar:hover .wechat {
+    width: 200px!important;
+}
+.name,
+.class,
+.id,
+.project,
+.teachter,
+.time,
+.school {
+    width: 300px;
+    color: #606266;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-bottom: 1px solid #606266;
+    position: absolute;
+    left: 40%;
+    padding-left: 30px;
+}
+.school a {
+    color: #606266;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.school a:hover {
+    color: #7c4e8d;
+}
+.name {
+    
+    top: 50px;
+}
+.class {
+    top: 100px;
+}
+.id {
+    top: 150px;
+}
+.project {
+    top: 200px;
+}
+.teachter {
+    top: 250px;
+}
+.time {
+    top: 300px;
+}
+.school {
+    top: 350px;
+}

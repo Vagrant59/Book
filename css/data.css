@@ -1,0 +1,31 @@
+﻿.news_data {
+    margin: 0 auto;
+    width: 900px;
+}
+.news_data b {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    color: #7c4e8d;
+}
+.news_data .mnav {
+    height: 60px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.news_data .mnav p {
+    display: block;
+    line-height: 60px;
+    color: #4e4e4e;
+    padding: 0 10px;
+}
+.news_data span {
+    display: block;
+    color: #4e4e4e;
+    letter-spacing: 1px;
+    text-indent: 2em;
+    line-height: 150%;
+}

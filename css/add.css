@@ -1,0 +1,106 @@
+﻿.add-in {
+    width: 816px;
+    margin: 0 auto;
+}
+#form1 {
+    min-height: 500px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.title {
+    padding: 32px 64px 24px;
+}
+#txttitle {
+    display: block;
+    width: 688px;
+    height: 55px;
+    margin: 0 auto;
+    color: #606266;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 23px;
+    font-weight: 600;
+    overflow: hidden;
+    border-bottom: 1px solid #606266;
+}
+#txttitle::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+.content {
+    width: 816px;
+    padding: 0 64px;
+}
+#txtcontent {
+    min-height: 500px;
+    min-width: 690px;
+    margin: 0 auto;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: normal;
+    line-height: 26px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#txtcontent::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+.mageurl {
+    padding: 24px 64px;
+    box-sizing: border-box;
+}
+#Label1, #Label2 {
+    font-size: 14px;
+    color: #606266;
+    line-height: 40px;
+    padding-bottom: 12px;
+}
+#txtimageurl {
+    padding: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid #606266;
+    border-radius: 4px;
+    color: #606266;
+}
+.category {
+    padding: 0 64px;
+    box-sizing: border-box;
+}
+#ddlcategory {
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 4px;
+    color: #606266;
+    background-color: #fff;
+}
+.button {
+    padding: 24px 64px 64px;
+    box-sizing: border-box;
+}
+#Button1 {
+    float: right;
+}
+.button input {
+    float: left;
+}
+#Button1,
+.button input {
+    height: 40px;
+    padding: 8px 42px;
+    line-height: 22px;
+    color: #999aaa;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #555666;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#Button1:hover,
+.button input:hover {
+    color: #093759
+}

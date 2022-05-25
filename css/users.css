@@ -1,0 +1,90 @@
+﻿@font-face { /* 声明字体 */
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?r5tos9');
+    src: url('../fonts/icomoon.eot?r5tos9#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?r5tos9') format('truetype'), url('../fonts/icomoon.woff?r5tos9') format('woff'), url('../fonts/icomoon.svg?r5tos9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.users-in {
+    width: 900px;
+    margin: 0 auto;
+}
+#form1 {
+    width: 530px;
+    min-height: 500px;
+    margin: 0 auto;
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    position: relative;
+}
+#Image2 {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.users-in h1 {
+    display: block;
+    margin-top: 180px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    height: 50px;
+    color: #202124;
+}
+.users-in p {
+    text-align: center;
+    height: 19px;
+    font-size: 16px;
+    padding-bottom: 26px;
+    color: #202124;
+    font-weight: 400;
+}
+.users-in fieldset {
+    margin: 0 auto;
+    height: 54px;
+    width: 366px;
+    border-radius: 5px;
+    border-color: #1a73e8;
+    color: #1a73e8;
+    margin-top: 10px;
+}
+.users-in fieldset legend {
+    margin-left: 10px;
+    padding: 0 5px;
+}
+.users-in fieldset input {
+    height: 10px;
+    width: 336px;
+    padding: 13px 15px;
+    background-color: #f6f6f6;
+    color: #202124;
+    font-size: 17px;
+}
+.users-in span {
+    font-family: icomoon;
+    font-size: 14px;
+    line-height: 250%;
+    color: #d93025;
+    margin-left: 80px;
+}
+.users-in .towbutton {
+    height: 44px;
+    width: 366px;
+    margin: 50px auto;
+}
+.users-in .towbutton a {
+    color: #1a73e8;
+    font-size: 17px;
+    line-height: 44px;
+}
+.users-in .towbutton input {
+    height: 44px;
+    width: 112px;
+    display: block;
+    float: right;
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 5px;
+}
